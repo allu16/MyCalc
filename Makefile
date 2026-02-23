@@ -1,4 +1,2 @@
-window: window.c
-	gcc -o window window.c -lraylib -Wall -Wextra -Werror
-	./window
-
+mycalc: mycalc.c
+	gcc -o mycalc mycalc.c -lraylib -Wall -Wextra -Werror
